@@ -655,67 +655,13 @@ xdg-open index.html
 ## 🎨 Galerie
 
 ### 📱 Mobile Verze (320px)
-```
-┌─────────────────────┐
-│ JN    ≡             │
-├─────────────────────┤
-│  Ahoj, jsem Jana    │
-│  Junior Dev         │
-│                     │
-│  [Pojďme si povídat]│
-│  [Moje práce]       │
-│                     │
-│         ↓           │
-└─────────────────────┘
-```
+![tablet](ph.png)
 
 ### 📊 Tablet Verze (768px)
-```
-┌────────────────────────────────┐
-│ JN    Domů | O mně | Projekty  │
-├────────────────────────────────┤
-│  Ahoj, jsem Jana               │
-│  Junior Frontend Developer      │
-│                                │
-│  [Pojďme si povídat] [Moje práce]
-│                                │
-├─────────────────────────────────┤
-│   About Sekce                   │
-│   [Text]        [Skills]        │
-│                                │
-│   Projekt 1    Projekt 2        │
-│   Projekt 3    Projekt 4        │
-└────────────────────────────────┘
-```
+![tablet](tb.png)
 
 ### 🖥️ Desktop Verze (1200px+)
-```
-┌──────────────────────────────────────────────────────────┐
-│ JN    Domů | O mně | Projekty | Blog | Kontakt           │
-├──────────────────────────────────────────────────────────┤
-│         Ahoj, jsem Jana Novotná                          │
-│         Junior Frontend Developer – kvalitní kód         │
-│         [Pojďme si povídat]  [Moje práce]               │
-│                              ↓                           │
-├──────────────────────────────────────────────────────────┤
-│  O Mně              Moje Technologie                     │
-│  [Popis]            [HTML5: ████████ 95%]              │
-│                     [CSS3:  ████████ 90%]              │
-│  Projekty (Grid 3 sloupce)                              │
-│  ┌─────────┬─────────┬─────────┐                        │
-│  │ Projekt │ Projekt │ Projekt │                        │
-│  │    1    │    2    │    3    │                        │
-│  └─────────┴─────────┴─────────┘                        │
-│                                                         │
-│  Blog Články (3 položky)                                │
-│  ┌─────────────┬─────────────┬─────────────┐           │
-│  │ CSS vs Grid │ Accessibility│ DOM API     │           │
-│  └─────────────┴─────────────┴─────────────┘           │
-│                                                         │
-│  Kontakt - Formulář + Social Links                     │
-│  © 2026 Jana Novotná                                   │
-└──────────────────────────────────────────────────────────┘
-```
+![pc](pc.png)
 
 ### 🎯 Klíčové Stránky
 
