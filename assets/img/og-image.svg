@@ -1,0 +1,52 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="og-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#89b4fa;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#94e2d5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5c2e7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1e1e2e"/>
+
+  <!-- Gradient overlay -->
+  <rect width="1200" height="630" fill="url(#og-grad1)" opacity="0.08"/>
+
+  <!-- Decorative shapes -->
+  <circle cx="100" cy="80" r="120" fill="#89b4fa" opacity="0.1"/>
+  <circle cx="1100" cy="550" r="150" fill="#94e2d5" opacity="0.1"/>
+  <rect x="0" y="0" width="1200" height="3" fill="#89b4fa" opacity="0.3"/>
+  <rect x="0" y="627" width="1200" height="3" fill="#94e2d5" opacity="0.3"/>
+
+  <!-- Main Text -->
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="72" fill="#89b4fa" text-anchor="middle" font-weight="bold">Jana Novotná</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="48" fill="#94e2d5" text-anchor="middle" font-weight="600">Junior Web Developer</text>
+
+  <!-- Description -->
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="28" fill="#cdd6f4" text-anchor="middle">Moderní portfolio s HTML, CSS a JavaScript</text>
+
+  <!-- Tags -->
+  <g>
+    <!-- Tag 1 -->
+    <rect x="200" y="430" width="160" height="50" rx="25" fill="#89b4fa" opacity="0.2" stroke="#89b4fa" stroke-width="2"/>
+    <text x="280" y="465" font-family="Arial, sans-serif" font-size="18" fill="#89b4fa" text-anchor="middle" font-weight="600">Frontend</text>
+
+    <!-- Tag 2 -->
+    <rect x="410" y="430" width="160" height="50" rx="25" fill="#94e2d5" opacity="0.2" stroke="#94e2d5" stroke-width="2"/>
+    <text x="490" y="465" font-family="Arial, sans-serif" font-size="18" fill="#94e2d5" text-anchor="middle" font-weight="600">Responsive</text>
+
+    <!-- Tag 3 -->
+    <rect x="620" y="430" width="160" height="50" rx="25" fill="#f5c2e7" opacity="0.2" stroke="#f5c2e7" stroke-width="2"/>
+    <text x="700" y="465" font-family="Arial, sans-serif" font-size="18" fill="#f5c2e7" text-anchor="middle" font-weight="600">Accessible</text>
+
+    <!-- Tag 4 -->
+    <rect x="830" y="430" width="160" height="50" rx="25" fill="#a6e3a1" opacity="0.2" stroke="#a6e3a1" stroke-width="2"/>
+    <text x="910" y="465" font-family="Arial, sans-serif" font-size="18" fill="#a6e3a1" text-anchor="middle" font-weight="600">Modern</text>
+  </g>
+
+  <!-- Branding: jananovotna.dev -->
+  <text x="600" y="580" font-family="Arial, sans-serif" font-size="22" fill="#a6adc8" text-anchor="middle">www.jananovotna.dev</text>
+</svg>

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Junior web developer portfolio. Moderní webové stránky, front-end specialista. Vítejte na mém portfoliu.">
+    <meta name="keywords" content="web development, frontend, portfolio, JavaScript, HTML, CSS">
+    <meta name="author" content="Jana Novotná">
+    <meta name="theme-color" content="#89b4fa">
+
+    <!-- Open Graph (sociální sítě) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jananovotna.dev/">
+    <meta property="og:title" content="Jana Novotná – Junior Web Developer">
+    <meta property="og:description" content="Moderní portfolio junior web developera. HTML, CSS, JavaScript specialista.">
+    <meta property="og:image" content="assets/img/og-image.svg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://jananovotna.dev/">
+    <meta name="twitter:title" content="Jana Novotná – Junior Web Developer">
+    <meta name="twitter:description" content="Moderní portfolio junior web developera.">
+    <meta name="twitter:image" content="assets/img/og-image.svg">
+
+    <!-- JSON-LD Person Schema (SEO + Structured Data) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jana Novotná",
+        "url": "https://jananovotna.dev",
+        "jobTitle": "Junior Web Developer",
+        "email": "jana@jananovotna.dev",
+        "sameAs": [
+            "https://github.com/jananovotna",
+            "https://linkedin.com/in/jananovotna",
+            "https://twitter.com/jananovotna"
+        ],
+        "knowsAbout": ["HTML", "CSS", "JavaScript", "Frontend Development", "Web Design"],
+        "image": "assets/img/profile.svg"
+    }
+    </script>
+
+    <title>Jana Novotná – Junior Web Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="canonical" href="https://jananovotna.dev/">
+</head>
+<body>
+    <!-- Header se sticky navigací -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="logo">
+                    <a href="#home">JN</a>
+                </div>
+
+                <!-- Hamburger menu -->
+                <button class="hamburger" aria-label="Přepnout navigaci" aria-expanded="false" id="hamburger">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+
+                <!-- Navigace -->
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Domů</a></li>
+                    <li><a href="#about" class="nav-link">O mně</a></li>
+                    <li><a href="#projects" class="nav-link">Projekty</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Sekce -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Ahoj, jsem Jana Novotná</h1>
+            <p class="hero-subtitle">Junior Frontend Developer – tvoříme moderní web</p>
+            <p class="hero-description">
+                Specialista na tvorbu čistého, přístupného a responzivního kódu.
+                Zaměřuji se na HTML, CSS a JavaScript. Rád spolupracuji na zajímavých projektech.
+            </p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Pojďme si povídat</a>
+                <a href="#projects" class="btn btn-secondary">Moje práce</a>
+            </div>
+            <div class="hero-scroll" aria-label="Posuňte se dolů">
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- O mně sekce -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>O mně</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Jsem junior web developer s vášní pro čistý a sémanticky správný kód.
+                        Když jsem začínala svou kariéru, fascinoval mě způsob, jak HTML, CSS a JavaScript
+                        spolupracují na vytváření interaktivních zážitků. Nyní to je moje profese a nadále mě to inspiruje.
+                    </p>
+                    <p>
+                        Mou specialitou je frontend development s důrazem na přístupnost (a11y) a UX.
+                        Věřím, že webové aplikace by měly být rychlé, krásné a použitelné pro všechny.
+                    </p>
+                </div>
+
+                <div class="skills">
+                    <h3>Technologie</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-name">JavaScript ES6+</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-name">Responsive Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-name">Accessibility (a11y)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <span class="skill-name">Git / GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 87%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projekty Sekce -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Moje projekty</h2>
+
+            <!-- Filtry projektů -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Všechny</button>
+                <button class="filter-btn" data-filter="html-css">HTML/CSS</button>
+                <button class="filter-btn" data-filter="javascript">JavaScript</button>
+                <button class="filter-btn" data-filter="responsive">Responsive</button>
+            </div>
+
+            <!-- Grid projektů -->
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projekt 1 -->
+                <article class="project-card" data-tags="html-css responsive">
+                    <div class="project-image">
+                        <img src="assets/img/project-1.svg"
+                             alt="Restaurační web design"
+                             loading="lazy"
+                             decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <h3>Restaurační Web</h3>
+                        <p>Moderní webová stránka pro místní restauraci s responsive designem a formulářem pro rezervace.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">Flexbox</span>
+                        </div>
+                        <a href="#" class="project-link">Podívat se →</a>
+                    </div>
+                </article>
+
+                <!-- Projekt 2 -->
+                <article class="project-card" data-tags="javascript responsive">
+                    <div class="project-image">
+                        <img src="assets/img/project-2.svg"
+                             alt="Todo aplikace"
+                             loading="lazy"
+                             decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <h3>Todo Aplikace</h3>
+                        <p>Interaktivní todo aplikace s možností přidávat, editovat a mazat úkoly. Data se ukládají v localStorage.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">ES6</span>
+                            <span class="tag">DOM API</span>
+                        </div>
+                        <a href="#" class="project-link">Podívat se →</a>
+                    </div>
+                </article>
+
+                <!-- Projekt 3 -->
+                <article class="project-card" data-tags="html-css javascript">
+                    <div class="project-image">
+                        <img src="assets/img/project-3.svg"
+                             alt="E-shop galerie"
+                             loading="lazy"
+                             decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Shop Galerie</h3>
+                        <p>Produktová galerie s filtry, lightboxem a detailním pohledem. Plně responsivní design.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS Grid</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">Podívat se →</a>
+                    </div>
+                </article>
+
+                <!-- Projekt 4 -->
+                <article class="project-card" data-tags="responsive html-css">
+                    <div class="project-image">
+                        <img src="assets/img/project-4.svg"
+                             alt="Blog design"
+                             loading="lazy"
+                             decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <h3>Osobní Blog</h3>
+                        <p>Minimalistický blog pro sdílení článků o web developmentu. Sémantické HTML a čitelná typografie.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">Semantic</span>
+                        </div>
+                        <a href="#" class="project-link">Podívat se →</a>
+                    </div>
+                </article>
+
+                <!-- Projekt 5 -->
+                <article class="project-card" data-tags="javascript responsive">
+                    <div class="project-image">
+                        <img src="assets/img/project-5.svg"
+                             alt="Kalkulátor"
+                             loading="lazy"
+                             decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <h3>Vědecký Kalkulátor</h3>
+                        <p>Plně funkční kalkulátor s podporou složitých výpočtů. Vytvořený čistým JavaScriptem bez knihoven.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">DOM</span>
+                            <span class="tag">Events</span>
+                        </div>
+                        <a href="#" class="project-link">Podívat se →</a>
+                    </div>
+                </article>
+
+                <!-- Projekt 6 -->
+                <article class="project-card" data-tags="html-css responsive">
+                    <div class="project-image">
+                        <img src="assets/img/project-6.svg"
+                             alt="Služby web design"
+                             loading="lazy"
+                             decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <h3>Landing Page – Služby</h3>
+                        <p>Profesionální landing page pro digitální agenturu s animacemi a CTA sekcemi.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">Animation</span>
+                        </div>
+                        <a href="#" class="project-link">Podívat se →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Sekce -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Blog & Poznámky</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <time class="blog-date" datetime="2026-05-12">12. května 2026</time>
+                    <h3><a href="#" class="blog-title">CSS Grid vs Flexbox: Kdy používat co?</a></h3>
+                    <p class="blog-excerpt">
+                        Mnoho junior developerů si není jisté, kdy použít CSS Grid a kdy Flexbox.
+                        V tomto článku se podíváme na klíčové rozdíly a praktické příklady pro oba přístupy.
+                    </p>
+                    <div class="blog-meta">
+                        <span class="blog-category">CSS</span>
+                        <span class="blog-readtime">5 min čtení</span>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <time class="blog-date" datetime="2026-05-08">8. května 2026</time>
+                    <h3><a href="#" class="blog-title">Jedenáct tipů na přístupnější webové aplikace</a></h3>
+                    <p class="blog-excerpt">
+                        Přístupnost není jen o průchodci na vozíku. Jedná se o tvorbu webů pro všechny.
+                        Zde najdete 11 praktických tipů, které zlepší a11y váhů webů.
+                    </p>
+                    <div class="blog-meta">
+                        <span class="blog-category">Accessibility</span>
+                        <span class="blog-readtime">8 min čtení</span>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <time class="blog-date" datetime="2026-04-30">30. dubna 2026</time>
+                    <h3><a href="#" class="blog-title">JavaScript: Jak pracovat se DOM API</a></h3>
+                    <p class="blog-excerpt">
+                        DOM API je základ interaktivního webu. Naučte se, jak efektivně pracovat s DOM prvky
+                        a vytvářet hladké uživatelské zážitky bez frameworků.
+                    </p>
+                    <div class="blog-meta">
+                        <span class="blog-category">JavaScript</span>
+                        <span class="blog-readtime">10 min čtení</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt Sekce -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Pojďme si povídat</h2>
+            <p class="contact-intro">
+                Máte zajímavý projekt nebo chcete jen tak chatovat? Napište mi!
+            </p>
+
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Jméno *</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                            aria-required="true"
+                            placeholder="Vaše jméno">
+                        <span class="error-message" id="nameError" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                            aria-required="true"
+                            placeholder="váš@email.com">
+                        <span class="error-message" id="emailError" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Předmět *</label>
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            required
+                            aria-required="true"
+                            placeholder="O čem byste chtěli mluvit?">
+                        <span class="error-message" id="subjectError" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Zpráva *</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            required
+                            aria-required="true"
+                            placeholder="Vaša zpráva..."
+                            rows="5"></textarea>
+                        <span class="error-message" id="messageError" role="alert"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Odeslat zprávu</button>
+                    <p class="form-note">Budu se vám ozývat do 24 hodin.</p>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Spojení</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub profil">
+                                GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profil">
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter profil">
+                                Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:jana@jananovotna.dev" aria-label="Poslat email">
+                                Email
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="contact-email">
+                        <strong>Email:</strong> jana@jananovotna.dev
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Jana Novotná. Všechna práva vyhrazena.</p>
+                <nav class="footer-nav" aria-label="Nožičková navigace">
+                    <a href="#home">Domů</a>
+                    <a href="#about">O mně</a>
+                    <a href="#projects">Projekty</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Kontakt</a>
+                </nav>
+                <p class="footer-note">
+                    Vytvořeno s ❤️ čistým HTML, CSS a JavaScriptem.
+                    <a href="robots.txt">Robots.txt</a> |
+                    <a href="sitemap.xml">Sitemap</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
